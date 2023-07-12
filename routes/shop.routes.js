@@ -8,7 +8,7 @@ const {
   getOne,
   update,
   deleteOne,
-} = require("../controllers/client.controller");
+} = require("../controllers/shop.controller");
 
 router.post("/add", add);
 
@@ -16,7 +16,7 @@ router.get("/get", get);
 
 router.get("/getOne/:id", getOne);
 
-router.put("/update/:id", update)
+router.put("/update/:id", update);
 
 router.delete("/delete/:id", deleteOne);
 

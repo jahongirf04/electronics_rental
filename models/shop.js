@@ -26,6 +26,6 @@ const Shop = sequelize.define("shop", {
 
 // Shop.belongsTo(Client)
 // Shop.belongsToMany(Client);
-Client.hasMany(Shop)
+// Client.hasMany(Shop)
 
 module.exports = Shop

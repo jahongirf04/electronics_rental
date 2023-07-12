@@ -1,4 +1,4 @@
-const myModel = require("../models/shop");
+const myModel = require("../models/otp");
 
 const get = async (ctx) => {
   try {
